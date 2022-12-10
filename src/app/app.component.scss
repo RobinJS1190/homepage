@@ -54,22 +54,11 @@
   color: #333;
 }
 
-/* HEADER */
-.main {
-  padding: 0 3rem;
-  height: 90vh;
-  // display: flex;
-  // flex-direction: column;
-  align-items: center;
-  background-image: url(../../img/hands.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+// Global values
 
 h1 {
   font-size: 2.5rem;
-  line-height: 1.35;
+  // line-height: 1.35;
 }
 
 h4 {
@@ -97,8 +86,25 @@ h4 {
 
 // Skills
 
+.main {
+  // padding: 0 3rem;
+  height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  background-image: url(../../img/hands.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#skills_title {
+  margin-left: 6rem;
+  margin-top: 9rem;
+}
+
 .main_skills {
-  padding: 0 3rem;
+  // padding: 0 3rem;
   font-size: large;
   // margin-left: 0;
   text-decoration: underline;
@@ -162,9 +168,29 @@ h4 {
   // padding: 8px 0px 8px 30px;
 }
 
-.section {
-  padding: 15rem 3rem;
-  border-top: 1px solid #ddd;
+// Section 1
 
-  transition: transform 1s, opacity 1s;
+.section--1 {
+  height: 100vh;
+  // padding: 15rem 3rem;
+  border-top: 2px solid rgb(128, 127, 127);
+  // transition: transform 1s, opacity 1s;
+}
+
+#about_me_title {
+  margin-left: 6rem;
+  margin-top: 9rem;
+}
+
+#about_me_list {
+  list-style-type: none;
+  font-size: medium;
+  font-weight: 800;
+  margin-left: 6rem;
+  line-height: 4rem;
+  width: 450px;
+  border-right: 1px solid black;
+}
+#about_me_list li {
+  border-bottom: 2px solid black;
 }
