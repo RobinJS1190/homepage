@@ -6,7 +6,6 @@
 }
 
 .title {
-  // position: relative;
   top: 3rem;
   left: 5rem;
   object-position: center;
@@ -16,7 +15,6 @@
 
 h1 {
   font-size: 2.5rem;
-  // line-height: 1.35;
 }
 
 h4 {
@@ -33,12 +31,11 @@ h4 {
   justify-content: space-between;
   align-items: center;
   height: 9rem;
-  // width: 100%;
+  width: 100%;
   z-index: 100;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  // opacity: 0;
 }
 
 .logo {
@@ -95,8 +92,6 @@ h4 {
 
 #section-1 {
   border-bottom: 1px solid black;
-  // border-left: 1px solid black;
-  // border-right: 1px solid black;
 }
 
 #skills_title {
@@ -108,14 +103,11 @@ h4 {
   position: relative;
   left: 5rem;
   top: 7rem;
-  // font-size: large;
-  // text-decoration: underline;
   width: 500px;
 }
 
 .coding_languages {
   width: 150px;
-  // margin-left: 2rem;
   list-style-type: none;
   font-size: medium;
   font-weight: 800;
@@ -166,15 +158,14 @@ h4 {
 }
 
 .coding_languages li:hover {
-  // background-color: rgb(167, 164, 164);
   color: rgb(7, 7, 198);
+  cursor: pointer;
 }
 
 .my_picture {
-  // bild
   position: absolute;
   top: 17rem;
-  right: 11rem;
+  right: 5rem;
   box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7);
 }
 
@@ -187,21 +178,20 @@ h4 {
 
 .about_me_button {
   border: none;
+  background-color: transparent;
 }
 
 .about_me_button:hover {
   color: rgb(7, 7, 198);
   font-size: large;
+  cursor: pointer;
 }
 
 // Section 2 / about me
 
 #section-2 {
-  // height: 100vh;
-  // padding: 15rem 3rem;
   background-image: url(../../img/img1.jpg);
   border-top: 1px solid rgb(0, 0, 0);
-  // transition: transform 1s, opacity 1s;
 }
 
 #about_me_title {
@@ -249,14 +239,62 @@ h4 {
 
 .zeugnis:hover {
   width: 180px;
+  cursor: pointer;
 }
 
 .zertifikat:hover {
   width: 180px;
+  cursor: pointer;
+}
+
+.next_page2 {
+  position: absolute;
+  object-position: center;
+  bottom: 2rem;
+  left: 43%;
+}
+
+.my_projects {
+  border: none;
+  background-color: transparent;
+}
+
+.my_projects:hover {
+  color: rgb(7, 7, 198);
+  font-size: large;
+  cursor: pointer;
 }
 
 // Section 3
 
 #section-3 {
   background-color: rgb(39, 38, 38);
+}
+
+// Section 4
+
+.section-4 {
+  position: relative;
+  height: 10vh;
+}
+
+.bottom {
+  background-image: url(../../img/img1.jpg);
+  background-color: gray;
+  display: flex;
+  object-position: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+.copyright_logo {
+  height: 1.5rem;
+  margin-left: 4rem;
+}
+
+#bottom_name {
+  font-size: small;
+  position: absolute;
+  left: 14rem;
 }
