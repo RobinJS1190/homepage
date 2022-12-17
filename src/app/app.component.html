@@ -1,28 +1,30 @@
-<nav class="nav">
-  <h1>
-    <span class="highlight">Köck Robin</span>
-  </h1>
-  <ul class="nav__links">
-    <li class="nav__item">
-      <a class="nav__link" href="#section--1">about me</a>
-    </li>
-    <li class="nav__item">
-      <a class="nav__link" href="#section--2">My Projects</a>
-    </li>
-    <!-- <li class="nav__item">
+<!--First Section-->
+<section class="section" id="section-1">
+  <nav class="nav">
+    <img class="logo" src="../assets/logos/homepage-logo.png" alt="logo" />
+    <ul class="nav__links">
+      <li class="nav__item">
+        <a class="nav__link" href="#section--1">about me</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--2">My Projects</a>
+      </li>
+      <!-- <li class="nav__item">
       <a class="nav__link" href="#section--3">kontact me</a>
     </li> -->
-    <li class="nav__item">
-      <a class="nav__link nav__link--btn btn--show-modal" href="#">contact</a>
-      <a><img src="" /></a>
-    </li>
-  </ul>
-</nav>
-<section class="section" id="section-1">
-  <!-- <div class="backgound-image">image</div> -->
+      <li class="nav__item">
+        <a class="nav__link nav__link--btn btn--show-modal" href="#">contact</a>
+        <a><img src="" /></a>
+      </li>
+    </ul>
+  </nav>
   <div class="main_skills">
-    <div class="skills_title1">
-      <h4 id="skills_title">Web Developer / Skills in:</h4>
+    <div class="title">
+      <h4 id="skills_title">
+        Hi , I'm Robin, <br />
+        a Webdeveloper from Vienna/Austria. <br />
+        I have skills in :
+      </h4>
     </div>
     <ul class="coding_languages">
       <li id="angular_logo">Angular</li>
@@ -34,17 +36,28 @@
   </div>
   <img class="my_picture" src="../assets/images/porträt.jpg" alt="my-picture" />
   <div class="next_page">
-    <button class="about_me_button">read more about me</button>
+    <button class="about_me_button">read more about me<br />▽</button>
   </div>
 </section>
+<!--Second Section-->
 <section class="section" id="section-2">
-  <h1 id="about_me_title">about me</h1>
+  <div class="title">
+    <h4 id="about_me_title">about me</h4>
+  </div>
+  <!-- <div class="about_me_text"> -->
+  <p class="about_me_text">
+    I'm 31 years old and currently living in Vienna. I am familiar with the
+    version control tools git and github.<br />
+    Windows and Visual Studio Code are my first choices. <br />
+    When i was at school, I learned programming with Visual Basic and PHP.<br />
+    In this section you will find further personal information about me and
+    relevant certificates.
+  </p>
+  <!-- </div> -->
   <ul id="about_me_list">
     <li>
-      <p>
-        First Name: <br />
-        Robin
-      </p>
+      First Name: <br />
+      Robin
     </li>
     <li>
       Last Name:<br />
@@ -63,4 +76,14 @@
       SDV Computer Science School - Vienna
     </li>
   </ul>
+  <img class="zeugnis" src="../assets/images/lebenslauf.jpg" alt="zeugnis" />
+  <img
+    class="zertifikat"
+    src="../assets/images/lebenslauf.jpg"
+    alt="zertifikat"
+  />
+  <div class="next_page">
+    <button class="about_me_button">check out my Projects<br />▽</button>
+  </div>
 </section>
+<section class="section" id="section-3"></section>

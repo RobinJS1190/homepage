@@ -16,7 +16,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  // box-sizing: inherit;
 }
 
 html {
@@ -27,7 +27,10 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #444;
-  line-height: 1.9;
+  color: rgb(16, 16, 16);
+  // line-height: 1.9;
   background-color: #f3f3f3;
+  overflow-x: hidden;
+  margin-left: 6%;
+  margin-right: 6%;
 }
