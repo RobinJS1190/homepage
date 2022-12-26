@@ -1,19 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { IvyCarouselModule } from 'angular-responsive-carousel/public-api';
 
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CarouselComponent
-  ],
-  imports: [
-    BrowserModule, IvyCarouselModule
-  ],
+  declarations: [AppComponent, CarouselComponent],
+  imports: [BrowserModule, IvyCarouselModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [AppComponent, BrowserModule],
 })
-export class AppModule { }
+export class AppModule {}
